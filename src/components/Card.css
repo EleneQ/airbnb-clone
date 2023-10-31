@@ -1,0 +1,54 @@
+.card {
+  width: 175px;
+  font-size: 12px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.card__img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card__badge {
+  position: absolute;
+  top: 10px;
+  left: 6px;
+  background-color: white;
+  padding: 3px 7px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.card__stats {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-block: 0.3rem;
+  color: black;
+}
+
+card__rating-text span {
+  color: black;
+}
+
+.card__star {
+  height: 14px;
+}
+
+.gray {
+  color: #918e9b;
+}
+
+/* a generic class */
+.bold {
+  font-weight: bold;
+}
+
+.card__title {
+  font-weight: 500;
+  font-size: 13px;
+  margin-bottom: 0.2rem;
+}

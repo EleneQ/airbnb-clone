@@ -1,0 +1,9 @@
+.cards-list {
+  padding: 20px 35px;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1.5rem;
+  overflow-x: auto;
+  margin-top: 2rem;
+}
+
