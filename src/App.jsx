@@ -19,7 +19,7 @@ import "./components/cardsList.css";
   we could also pass into the card item={item}, so pass in 
   an individual data element object, but then we'd have to use
   the .item in the card component code, so that would clatter 
-  it a bit
+  the card a bit
 */
 export default function App() {
   const cards = data.map((item) => {
